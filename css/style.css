@@ -137,7 +137,12 @@ background-color: rgba(240, 248, 255, 0.549);
 .medias a:hover{
   color: rgb(248, 79, 79);
 }
-
+.dpdpad li{
+  padding-left: 10px;
+}
+.dpda{
+  padding-left: 30px;
+}
 
 
 
@@ -148,6 +153,7 @@ background-color: rgba(240, 248, 255, 0.549);
   height: auto;
   display: flex;
   justify-content: center;
+  background-color: rgb(255, 250, 222);
 }
 .whycode{
   height: auto;
@@ -174,7 +180,7 @@ background-color: rgba(240, 248, 255, 0.549);
 }
 @media(min-width:600px) and (max-width:1100px){
   .heading h1{
-    font-size: 100px;
+    font-size: 70px;
   }
 }
 
@@ -234,7 +240,7 @@ background-color: rgba(240, 248, 255, 0.549);
     margin-bottom: 20px;
   }
   .codeimg img{
-    height: 300px;
+    height: 500px;
   }
 }
 @media(min-width:750px) and (max-width: 1100px){
@@ -244,7 +250,8 @@ background-color: rgba(240, 248, 255, 0.549);
 }
 @media(min-width:1100px){
   .codeimg img{
-    height: 400px;
+    height: 500px;
+    width:400px;
   }
 }
 
@@ -394,6 +401,7 @@ background-color: rgba(240, 248, 255, 0.549);
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
+  background-color: rgb(255, 250, 222);
 }
 .about{
   height: auto;
@@ -579,7 +587,3 @@ background-color: rgba(240, 248, 255, 0.549);
     font-size: 5px;
   }
 }
-
-
-
-
